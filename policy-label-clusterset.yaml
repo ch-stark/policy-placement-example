@@ -3,7 +3,7 @@ kind: Policy
 metadata:
   name: policy-label-clusterset
   annotations:
-    policy.open-cluster-management.io/controls: gitops-operator
+    policy.open-cluster-management.io/controls: policies
 spec:
   remediationAction: enforce
   disabled: false
